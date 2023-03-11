@@ -1,4 +1,4 @@
-import{d as e,$ as l,v as c}from"./index-48adef73.js";function t(i){const n=Object.assign({h2:"h2",ul:"ul",li:"li",code:"code"},i.components);return l(c,{children:[e(n.h2,{children:"Override default options"}),`
+import{d as e,$ as l,v as c}from"./index-357363b2.js";function t(i){const n=Object.assign({h2:"h2",ul:"ul",li:"li",code:"code"},i.components);return l(c,{children:[e(n.h2,{children:"Override default options"}),`
 `,l(n.ul,{children:[`
 `,l(n.li,{children:["Put the options in ",e(n.code,{children:"custom/init.lua"}),"."]}),`
 `,e(n.li,{children:"New options can put in the same file as well."}),`
