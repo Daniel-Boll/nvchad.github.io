@@ -1,4 +1,4 @@
-import{d as l,$ as s,v as i}from"./index-58cc0a3f.js";function a(e){const n=Object.assign({h2:"h2",ul:"ul",li:"li",pre:"pre",code:"code",span:"span",a:"a"},e.components);return s(i,{children:[l(n.h2,{children:"Install null-ls.nvim"}),`
+import{d as l,$ as s,v as i}from"./index-48adef73.js";function a(e){const n=Object.assign({h2:"h2",ul:"ul",li:"li",pre:"pre",code:"code",span:"span",a:"a"},e.components);return s(i,{children:[l(n.h2,{children:"Install null-ls.nvim"}),`
 `,s(n.ul,{children:[`
 `,l(n.li,{children:"Dependencies load after the original plugin ( lspconfig in our case )."}),`
 `,l(n.li,{children:"Null-ls is loaded after lspconfig as lspconfig is lazyloaded."}),`

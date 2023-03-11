@@ -1,4 +1,4 @@
-import{d as s,$ as e,v as i}from"./index-58cc0a3f.js";function a(l){const n=Object.assign({h2:"h2",ul:"ul",li:"li",code:"code",pre:"pre",span:"span"},l.components);return e(i,{children:[s(n.h2,{children:"Overview"}),`
+import{d as s,$ as e,v as i}from"./index-48adef73.js";function a(l){const n=Object.assign({h2:"h2",ul:"ul",li:"li",code:"code",pre:"pre",span:"span"},l.components);return e(i,{children:[s(n.h2,{children:"Overview"}),`
 `,e(n.ul,{children:[`
 `,e(n.li,{children:["C = ",s("kbd",{children:" Ctrl "})]}),`
 `,e(n.li,{children:["leader = ",s("kbd",{children:" Space "})]}),`
