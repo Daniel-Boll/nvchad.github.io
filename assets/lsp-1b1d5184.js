@@ -1,4 +1,4 @@
-import{d as s,$ as e,v as i}from"./index-5e4de1a2.js";function a(l){const n=Object.assign({h2:"h2",ul:"ul",li:"li",a:"a",pre:"pre",code:"code",span:"span"},l.components);return e(i,{children:[s(n.h2,{children:"Setup lsp server"}),`
+import{d as s,$ as e,v as i}from"./index-360ce34f.js";function a(l){const n=Object.assign({h2:"h2",ul:"ul",li:"li",a:"a",pre:"pre",code:"code",span:"span"},l.components);return e(i,{children:[s(n.h2,{children:"Setup lsp server"}),`
 `,e(n.ul,{children:[`
 `,e(n.li,{children:["Skim through ",s(n.a,{href:"https://github.com/neovim/nvim-lspconfig",children:"lspconfig repo"})," to get a general overview of how the config works."]}),`
 `,e(n.li,{children:["Then check ",s(n.a,{href:"https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md",children:"server_configurations.md"})," to make sure your language's lsp server is present there."]}),`

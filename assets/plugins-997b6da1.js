@@ -1,4 +1,4 @@
-import{d as e,$ as s,v as i}from"./index-5e4de1a2.js";function a(l){const n=Object.assign({h2:"h2",ul:"ul",li:"li",a:"a",h3:"h3",p:"p",code:"code",pre:"pre",span:"span"},l.components);return s(i,{children:[e(n.h2,{children:"Overview"}),`
+import{d as e,$ as s,v as i}from"./index-360ce34f.js";function a(l){const n=Object.assign({h2:"h2",ul:"ul",li:"li",a:"a",h3:"h3",p:"p",code:"code",pre:"pre",span:"span"},l.components);return s(i,{children:[e(n.h2,{children:"Overview"}),`
 `,s(n.ul,{children:[`
 `,s(n.li,{children:["NvChad uses ",e(n.a,{href:"https://github.com/folke/lazy.nvim",children:"lazy.nvim"})," for plugins management so its syntax is valid."]}),`
 `,e(n.li,{children:"Basically NvChad expects a user plugin table, which then gets merged with the default plugins table."}),`

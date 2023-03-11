@@ -1,4 +1,4 @@
-import{d as e,$ as s,v as i}from"./index-5e4de1a2.js";function a(l){const n=Object.assign({h2:"h2",ul:"ul",li:"li",code:"code",pre:"pre",span:"span",p:"p",strong:"strong",img:"img"},l.components);return s(i,{children:[e(n.h2,{children:"How does NvChad work?"}),`
+import{d as e,$ as s,v as i}from"./index-360ce34f.js";function a(l){const n=Object.assign({h2:"h2",ul:"ul",li:"li",code:"code",pre:"pre",span:"span",p:"p",strong:"strong",img:"img"},l.components);return s(i,{children:[e(n.h2,{children:"How does NvChad work?"}),`
 `,s(n.ul,{children:[`
 `,s(n.li,{children:["To continue this topic, first you should understand ",e(n.code,{children:"vim.tbl_deep_extend"})," function which we use for merging tables and their values recursively."]}),`
 `,s(n.li,{children:["We use ",e(n.code,{children:"vim.tbl_deep_extend"})," to merge 2 tables usually, the syntax looks like this :"]}),`

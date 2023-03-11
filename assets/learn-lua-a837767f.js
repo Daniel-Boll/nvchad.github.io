@@ -1,4 +1,4 @@
-import{d as n,$ as l,v as c}from"./index-5e4de1a2.js";function a(e){const s=Object.assign({h2:"h2",ul:"ul",li:"li",br:"br",pre:"pre",code:"code",span:"span",h3:"h3",p:"p",strong:"strong"},e.components);return l(c,{children:[n(s.h2,{children:"Introduction"}),`
+import{d as n,$ as l,v as c}from"./index-360ce34f.js";function a(e){const s=Object.assign({h2:"h2",ul:"ul",li:"li",br:"br",pre:"pre",code:"code",span:"span",h3:"h3",p:"p",strong:"strong"},e.components);return l(c,{children:[n(s.h2,{children:"Introduction"}),`
 `,l(s.ul,{children:[`
 `,l(s.li,{children:["Learning basic lua is highly recommended when configuring neovim config. It's a really simple & small language, this tutorial would barely take",n(s.br,{}),`
 `,"5-10 minutes if you already have experience in programming."]}),`
