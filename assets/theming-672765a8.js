@@ -1,4 +1,4 @@
-import{d as n,$ as l,v as r}from"./index-357363b2.js";function a(s){const e=Object.assign({h2:"h2",ul:"ul",li:"li",pre:"pre",code:"code",span:"span",h3:"h3",p:"p"},s.components);return l(r,{children:[n(e.h2,{children:"Override default highlight groups"}),`
+import{d as n,$ as l,v as r}from"./index-5e4de1a2.js";function a(s){const e=Object.assign({h2:"h2",ul:"ul",li:"li",pre:"pre",code:"code",span:"span",h3:"h3",p:"p"},s.components);return l(r,{children:[n(e.h2,{children:"Override default highlight groups"}),`
 `,l(e.ul,{children:[`
 `,n(e.li,{children:"Make sure you use a valid highlight group!"}),`
 `,n(e.li,{children:"Check your theme colors in this dir:"}),`

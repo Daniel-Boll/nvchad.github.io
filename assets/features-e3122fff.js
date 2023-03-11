@@ -1,4 +1,4 @@
-import{d as i,$ as n,v as t}from"./index-357363b2.js";function l(r){const e=Object.assign({h1:"h1",ul:"ul",li:"li",strong:"strong",h2:"h2",h4:"h4",p:"p",img:"img",a:"a",code:"code"},r.components);return n(t,{children:[i(e.h1,{children:"Inbuilt features"}),`
+import{d as i,$ as n,v as t}from"./index-5e4de1a2.js";function l(r){const e=Object.assign({h1:"h1",ul:"ul",li:"li",strong:"strong",h2:"h2",h4:"h4",p:"p",img:"img",a:"a",code:"code"},r.components);return n(t,{children:[i(e.h1,{children:"Inbuilt features"}),`
 `,n(e.ul,{children:[`
 `,n(e.li,{children:["NvChad is built upon its personal plugins and many general neovim plugins, below are the features that are provided by nvchad plugins ",i(e.strong,{children:"( our ui plugin, base46, extensions, nvterm, nvim-colorizer )"})]}),`
 `]}),`

@@ -1,4 +1,4 @@
-import{d as e,$ as l,v as i}from"./index-357363b2.js";function a(s){const n=Object.assign({h2:"h2",ul:"ul",li:"li",a:"a",pre:"pre",code:"code",span:"span",h3:"h3"},s.components);return l(i,{children:[e(n.h2,{children:"Statusline & tabufline"}),`
+import{d as e,$ as l,v as i}from"./index-5e4de1a2.js";function a(s){const n=Object.assign({h2:"h2",ul:"ul",li:"li",a:"a",pre:"pre",code:"code",span:"span",h3:"h3"},s.components);return l(i,{children:[e(n.h2,{children:"Statusline & tabufline"}),`
 `,l(n.ul,{children:[`
 `,l(n.li,{children:["We use our own ",e(n.a,{href:"https://github.com/NvChad/ui",children:"plugin"})," for statusline & tabufline and it has some options."]}),`
 `,e(n.li,{children:"The default config: (You must know that every plugin's default config is just a table)."}),`
