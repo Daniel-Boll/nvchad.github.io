@@ -105,9 +105,9 @@ isAlive = `,i(e.span,{className:"hljs-literal",children:"false"}),`
 `,i(e.h2,{children:"Comparison Operators"}),`
 `,i(e.pre,{children:p(e.code,{className:"hljs language-lua",children:[` == equality
  < less than
- \\> greater than
+ > greater than
  <= less than `,i(e.span,{className:"hljs-keyword",children:"or"}),` equal to
- \\>= greater than `,i(e.span,{className:"hljs-keyword",children:"or"}),` equal to
+ >= greater than `,i(e.span,{className:"hljs-keyword",children:"or"}),` equal to
  ~= inequality
 `]})}),`
 `,i(e.h2,{children:"Conditional Statements"}),`
