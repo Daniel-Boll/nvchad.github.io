@@ -247,7 +247,7 @@ print_num(`,i(e.span,{className:"hljs-number",children:"5"}),") ",i(e.span,{clas
 }
 
 `,i(e.span,{className:"hljs-comment",children:"-- both print sid"}),`
-prrint(info[`,i(e.span,{className:"hljs-string",children:'"name"'}),`])
+`,i(e.span,{className:"hljs-built_in",children:"print"}),"(info[",i(e.span,{className:"hljs-string",children:'"name"'}),`])
 `,i(e.span,{className:"hljs-built_in",children:"print"}),`(info.name)
 
 `,i(e.span,{className:"hljs-comment",children:"-- Loop by pairs"}),`
