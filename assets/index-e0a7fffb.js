@@ -827,7 +827,7 @@ vim.opt.bg = `,i(e.span,{className:"hljs-string",children:'"dark"'})," ",i(e.spa
 `,i(e.pre,{children:p(e.code,{className:"hljs language-lua",children:[`M.ui = {
    theme = `,i(e.span,{className:"hljs-string",children:'"siduck"'}),`,
 }
-`]})})]})}function qo(n={}){const{wrapper:e}=n.components||{};return e?i(e,Object.assign({},n,{children:i(vr,n)})):vr(n)}function yr(n){const e=Object.assign({h1:"h1",ul:"ul",li:"li",strong:"strong",h2:"h2",h4:"h4",p:"p",img:"img",a:"a",code:"code"},n.components);return p(G,{children:[i(e.h1,{children:"Inbuilt features"}),`
+`]})})]})}function qo(n={}){const{wrapper:e}=n.components||{};return e?i(e,Object.assign({},n,{children:i(vr,n)})):vr(n)}function yr(n){const e=Object.assign({h1:"h1",ul:"ul",li:"li",strong:"strong",h2:"h2",h4:"h4",p:"p",img:"img",code:"code",a:"a"},n.components);return p(G,{children:[i(e.h1,{children:"Inbuilt features"}),`
 `,p(e.ul,{children:[`
 `,p(e.li,{children:["NvChad is built upon its personal plugins and many general neovim plugins, below are the features that are provided by nvchad plugins ",i(e.strong,{children:"( our ui plugin, base46, extensions, nvterm, nvim-colorizer )"})]}),`
 `]}),`
@@ -874,14 +874,18 @@ vim.opt.bg = `,i(e.span,{className:"hljs-string",children:'"dark"'})," ",i(e.spa
 `,i(e.h2,{children:"Dashboard"}),`
 `,p(e.ul,{children:[`
 `,i(e.li,{children:"Nvdash is NvChad's minimal dashboard module, It's very simple at this stage and will get more features in the future!"}),`
+`,p(e.li,{children:["Command to run it ",i(e.code,{children:"NvDash"}),`, its disabled on startup, check the default_config.lua for its syntax and override it from chadrc.
+`,i(e.img,{src:"/features/nvdash.webp",alt:"nvdash"})]}),`
 `]}),`
-`,i(e.p,{children:i(e.img,{src:"/features/nvdash.webp",alt:"nvdash"})}),`
 `,i(e.h2,{children:"NvCheatsheet"}),`
 `,p(e.ul,{children:[`
 `,i(e.li,{children:"Auto-generated mappings cheatsheet module which has a similar layout to that of CSS's masonry layout."}),`
 `,i(e.li,{children:"It has 2 themes ( grid & simple )"}),`
 `]}),`
 `,i(e.p,{children:i(e.img,{src:"/features/nvcheatsheet.webp",alt:"nvcheatsheet"})}),`
+`,p(e.ul,{children:[`
+`,p(e.li,{children:["command to toggle it : ",i(e.code,{children:"NvCheatsheet"})," and mapping ",i(e.code,{children:"leader + ch"})]}),`
+`]}),`
 `,i("div",{class:"iframe-container",children:i("iframe",{src:"https://www.youtube.com/embed/IljDD4cjgKc",title:"YouTube video player",frameborder:"0",allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",allow:"fullscreen;"})}),`
 `,i(e.h1,{children:"General neovim plugins"}),`
 `,p(e.ul,{children:[`
@@ -915,6 +919,7 @@ vim.opt.bg = `,i(e.span,{className:"hljs-string",children:'"dark"'})," ",i(e.spa
 `,i("br",{}),`
 `,p(e.ul,{children:[`
 `,p(e.li,{children:[i(e.a,{href:"https://github.com/folke/lazy.nvim",children:i(e.code,{children:"lazy.nvim"})})," - A modern plugin manager for Neovim"]}),`
+`,p(e.li,{children:[i(e.a,{href:"https://github.com/folke/lazy.nvim",children:i(e.code,{children:"whichkey.nvim"})})," - Create key bindings that stick. WhichKey is a lua plugin for Neovim 0.5 that displays a popup with possible keybindings of the command you started typing."]}),`
 `,p(e.li,{children:[i(e.a,{href:"https://github.com/NvChad/nvim-colorizer.lua",children:i(e.code,{children:"nvim-colorizer.lua"})})," - Fastest Neovim colorizer, hex colors, hsl codes and much more."]}),`
 `,p(e.li,{children:[i(e.a,{href:"https://github.com/nvim-treesitter/nvim-treesitter",children:i(e.code,{children:"nvim-treesitter"})})," - Nvim Treesitter configurations and abstraction layer, we use it for syntax highlighting & auto-indenting."]}),`
 `,p(e.li,{children:[i(e.a,{href:"https://github.com/lukas-reineke/indent-blankline.nvim",children:i(e.code,{children:"blankline"})})," - Indent guides for Neovim i.e indentline plugin."]}),`
@@ -1112,6 +1117,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 `,i(e.li,{children:"Auto-generated mappings cheatsheet module which has a similar layout to that of CSS's masonry layout."}),`
 `,i(e.li,{children:"It will list both default & user keys and their descriptions."}),`
 `,i(e.li,{children:"It has 2 themes ( grid & simple )"}),`
+`,p(e.li,{children:["Command to toggle it : ",i(e.code,{children:"NvCheatsheet"})," and mapping ",i(e.code,{children:"leader + ch"})]}),`
 `]}),i(e.p,{children:i(e.img,{src:"/features/nvcheatsheet.webp",alt:"nvcheatsheet"})}),i("div",{class:"iframe-container",children:i("iframe",{src:"https://www.youtube.com/embed/IljDD4cjgKc",title:"YouTube video player",frameborder:"0",allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",allow:"fullscreen;"})}),i(e.h2,{children:"Chadrc completion"}),i(e.p,{children:i(e.img,{src:"/features/chadrc_types.webp",alt:"chadrc types"})}),p(e.ul,{children:[`
 `,i(e.li,{children:"Big thanks to @Lucario387 for adding types to chadrc options. This will get you autocompletions for all nvchad options in the chadrc file!"}),`
 `]}),i(e.h2,{children:"Example_config"}),p(e.ul,{children:[`
