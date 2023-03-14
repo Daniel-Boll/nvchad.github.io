@@ -18,6 +18,7 @@ ${n}. Is your HTML properly formed?`;let l=r.content.firstChild;return t&&(l=l.f
 `,p(e.li,{children:[i(e.a,{href:"https://github.com/BurntSushi/ripgrep",children:"Ripgrep"})," is required for grep searching with Telescope ",i("strong",{children:"(OPTIONAL)"}),"."]}),`
 `,i(e.li,{children:"GCC"}),`
 `,p(e.li,{children:["Windows users must have ",i(e.a,{href:"http://mingw-w64.org/downloads",children:i(e.code,{children:"mingw"})})," installed and set on path."]}),`
+`,i(e.li,{children:"Delete old neovim dir ( check commands below to do it )"}),`
 `]}),`
 `,i(e.h2,{children:"Install"}),`
 `,i(Ao,{}),`
