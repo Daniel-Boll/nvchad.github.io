@@ -1014,7 +1014,7 @@ vim.opt.bg = `,i(e.span,{className:"hljs-string",children:'"dark"'})," ",i(e.spa
 `]}),`
 `]}),`
 `,p(e.li,{children:[`
-`,p(e.p,{children:["Thanks to ",i(e.a,{href:"https://gitlab.com/ufoludek",children:"ufoludek"}),' for making fun of me when I (@siduck) was using "codeblocks" ( 3 years ago ). I got to know from him that vim could do the same thing which got me interested in vim.']}),`
+`,p(e.p,{children:["Thanks to ",i(e.a,{href:"https://t.me/ufoludek",children:"ufoludek"}),' for making fun of me when I (@siduck) was using "codeblocks" ( 3 years ago ). I got to know from him that vim could do the same thing which got me interested in vim.']}),`
 `]}),`
 `]}),`
 `,i(e.p,{children:i(e.strong,{children:"Some people who helped me a lot :"})}),`
