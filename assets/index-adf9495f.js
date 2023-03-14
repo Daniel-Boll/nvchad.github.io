@@ -1173,7 +1173,7 @@ M.ui = {
 `]})}),i(e.h2,{children:"Removed Alpha-nvim"}),p(e.ul,{children:[`
 `,i(e.li,{children:"Its replaced by our own dashboard module which has a simple config & is lightweight."}),`
 `,p(e.li,{children:["Check the NvDash config in the ",i(e.a,{href:"https://github.com/NvChad/NvChad/blob/v2.0/lua/core/default_config.lua#L50",children:"default_config file"})]}),`
-`]}),i(e.h2,{children:"Removed commands & mappings"}),p(e.p,{children:["Some mappings and commands have been removed. However their functions still exist, just make your own commands/mappings for them. Read our ",i(e.a,{href:"http://localhost:3000/#/docs/api",children:"api functions docs"}),"."]}),i(e.p,{children:i(e.strong,{children:"Removed commands"})}),p(e.ul,{children:[`
+`]}),i(e.h2,{children:"Removed commands & mappings"}),p(e.p,{children:["Some mappings and commands have been removed. However their functions still exist, just make your own commands/mappings for them. Read our ",i(e.a,{href:"http://nvchad.com/#/docs/api",children:"api functions docs"}),"."]}),i(e.p,{children:i(e.strong,{children:"Removed commands"})}),p(e.ul,{children:[`
 `,i(e.li,{children:"Tbufpick , TbufLeft, TbufRight"}),`
 `]}),i(e.p,{children:i(e.strong,{children:"Removed mappings"})}),p(e.ul,{children:[`
 `,p(e.li,{children:[i(e.code,{children:"\\"})," ( to trigger tbufpick)."]}),`
