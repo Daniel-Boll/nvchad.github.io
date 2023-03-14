@@ -997,11 +997,11 @@ vim.opt.bg = `,i(e.span,{className:"hljs-string",children:'"dark"'})," ",i(e.spa
 `,i(e.h2,{children:"Other ways to contribute"}),`
 `,p(e.ul,{children:[`
 `,i(e.li,{children:"Help other nvchad users on github discussions, issues, our discord/matrix server, telegram group."}),`
-`]})]})}function Fo(n={}){const{wrapper:e}=n.components||{};return e?i(e,Object.assign({},n,{children:i(Er,n)})):Er(n)}function Nr(n){const e=Object.assign({p:"p",ul:"ul",li:"li",a:"a"},n.components);return p(G,{children:[i(e.p,{children:"The NvChad team would love to acknowledge many projects which made this possible."}),`
+`]})]})}function Fo(n={}){const{wrapper:e}=n.components||{};return e?i(e,Object.assign({},n,{children:i(Er,n)})):Er(n)}function Nr(n){const e=Object.assign({p:"p",ul:"ul",li:"li",a:"a",strong:"strong"},n.components);return p(G,{children:[i(e.p,{children:"The NvChad team would love to acknowledge many projects which made this possible."}),`
 `,i(e.p,{children:"Thank you!"}),`
 `,p(e.ul,{children:[`
 `,p(e.li,{children:[`
-`,p(e.p,{children:[i(e.a,{href:"https://github.com/neovim/neovim",children:"NeoVim"})," & ",i(e.a,{href:"https://github.com/vim/vim",children:"Vim"})]}),`
+`,p(e.p,{children:[i(e.a,{href:"https://github.com/vim/vim",children:"Vim"})," & ",i(e.a,{href:"https://github.com/neovim/neovim",children:"NeoVim"})]}),`
 `]}),`
 `,p(e.li,{children:[`
 `,i(e.p,{children:"Plugin maintainers."}),`
@@ -1013,14 +1013,17 @@ vim.opt.bg = `,i(e.span,{className:"hljs-string",children:'"dark"'})," ",i(e.spa
 `,i(e.li,{children:i(e.a,{href:"https://github.com/SpaceVim/SpaceVim",children:"SpaceVim"})}),`
 `]}),`
 `]}),`
+`,p(e.li,{children:[`
+`,p(e.p,{children:["Thanks to ",i(e.a,{href:"https://gitlab.com/ufoludek",children:"ufoludek"}),' for making fun of me when I (@siduck) was using "codeblocks" ( 3 years ago ). I got to know from him that vim could do the same thing which got me interested in vim.']}),`
 `]}),`
-`,i(e.p,{children:"These people have been very helpful at times to @siduck:"}),`
+`]}),`
+`,i(e.p,{children:i(e.strong,{children:"Some people who helped me a lot :"})}),`
 `,p(e.ul,{children:[`
 `,i(e.li,{children:i(e.a,{href:"https://github.com/elianiva",children:"elianava"})}),`
 `,i(e.li,{children:i(e.a,{href:"https://github.com/ii14",children:"ii14"})}),`
-`,i(e.li,{children:i(e.a,{href:"https://github.com/tamton-aquib",children:"tamton-aquib"})}),`
-`,i(e.li,{children:i(e.a,{href:"https://github.com/lucario387",children:"lucario"})}),`
 `,i(e.li,{children:i(e.a,{href:"https://github.com/max397574",children:"max397574"})}),`
+`,i(e.li,{children:i(e.a,{href:"https://github.com/lucario387",children:"lucario"})}),`
+`,i(e.li,{children:i(e.a,{href:"https://github.com/tamton-aquib",children:"tamton-aquib"})}),`
 `,i(e.li,{children:i(e.a,{href:"https://github.com/vhyrro",children:"vhyrro"})}),`
 `]})]})}function zo(n={}){const{wrapper:e}=n.components||{};return e?i(e,Object.assign({},n,{children:i(Nr,n)})):Nr(n)}const zt=[{label:["Quickstart","i-mingcute:safe-flash-fill"],items:[["Install","quickstart/install",Do],["Post Install","quickstart/post-install",xo],["Learn basic Lua","quickstart/learn-lua",So]]},{label:["Custom config","i-mdi-cog"],items:[["Walkthrough","config/walkthrough",To],["Options","config/options",Lo],["Manage Plugins","config/plugins",Co],["LSP Configuration","config/Lsp",Ro],["Format & Lint","config/format_lint",Vo],["Mappings","config/mappings",$o],["UI Customization","config/nvchad_ui",Mo],["Customize colors","config/theming",qo]]},["Features","features","i-tabler:server-cog",Uo],["Api Functions","api","i-mdi:atom-variant",Bo],["Debug config","debugging-config","i-ri-bug-line",Ho],["Contributing","contribute","i-mdi-github",Fo],["Credits","credits","i-line-md:heart",zo]],Wo=A('<div class="grid pl-4 gap-3 rounded-none" border="0 l solid slate-2 dark:dark-4" ml-3="" pl-5=""></div>',2),Ko=A('<div class="grid gap-5"><button class="rounded-xl gap-20 bg-sky-1 text-slate-7 dark:bg-dark-3 dark:text-white-2 p-2 w-full"><div class="vertCentered" font-medium=""><div></div> </div><div></div></button></div>',10),Xo=A('<div i-octicon-chevron-down-12=""></div>',2),Go=A('<div i-octicon-chevron-right-12=""></div>',2),Jo=A(`<div class="h-fit  xl:sticky z-10 top-0  xl:flex flex-col
      bg-white-1 dark:bg-dark-2
