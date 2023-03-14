@@ -12,6 +12,7 @@ ${n}. Is your HTML properly formed?`;let l=r.content.firstChild;return t&&(l=l.f
 `,p(e.ul,{children:[`
 `,p(e.li,{children:["Make sure the nerd font you set doesnt end with ",i("strong",{children:"Mono"})]}),`
 `,p(e.li,{children:[i("strong",{children:"Example : "})," Iosevka Nerd Font and not ",i("s",{children:"Iosevka Nerd Font Mono"})]}),`
+`,i(e.li,{children:"Thats because those fonts will have small icons."}),`
 `]}),`
 `]}),`
 `,p(e.li,{children:[i(e.a,{href:"https://github.com/BurntSushi/ripgrep",children:"Ripgrep"})," is required for grep searching with Telescope ",i("strong",{children:"(OPTIONAL)"}),"."]}),`
